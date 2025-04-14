@@ -1,5 +1,6 @@
 import { Roboto } from "next/font/google";
 import { Button, Container } from "@mui/material";
+import AppBarComponent from "@/components/modules/appbar/AppBarComponent";
 const robotoMono = Roboto({ variable: "--font-roboto-sans", subsets: ["latin"], });
 
 
@@ -11,7 +12,7 @@ export default function Home() {
     return (
         <main>
             <Container maxWidth="lg" className="border h-screen">
-
+                <AppBarComponent />
             </Container>
         </main>
     )
