@@ -5,7 +5,7 @@ import { Button } from "@mui/material";
 
 function AppBarComponent() {
     return (
-        <nav className='w-full h-auto flex items-center justify-between pr-3 pl-2 py-2 sticky top-3 left-0 bg-transparent rounded backdrop-blur-xl border border-slate-200'>
+        <nav className='w-full h-auto flex items-center justify-between pr-3 pl-2 py-2 sticky top-3 left-0 bg-transparent rounded backdrop-blur-xl border border-slate-200 z-50'>
 
             <div className="flex items-center justify-start basis-1/2 md:basis-1/5">
                 <Link href="/">
@@ -14,11 +14,11 @@ function AppBarComponent() {
             </div>
 
             <ul id="NAVIGATION____LINKS" className="hidden lg:flex items-center justify-center gap-4 basis-3/5">
-                <Button variant="text" color="inherit"><Link href="/">Home</Link></Button>
-                <Button variant="text" color="inherit"><Link href="/">About</Link></Button>
-                <Button variant="text" color="inherit"><Link href="/">How it works</Link></Button>
-                <Button variant="text" color="inherit"><Link href="/">Clients</Link></Button>
-                <Button variant="text" color="inherit"><Link href="/">Portfolio</Link></Button>
+                <Button variant="text" color="inherit"><Link href="/" className="Nav__Link">Home</Link></Button>
+                <Button variant="text" color="inherit"><Link href="/" className="Nav__Link">About</Link></Button>
+                <Button variant="text" color="inherit"><Link href="/" className="Nav__Link">How it works</Link></Button>
+                <Button variant="text" color="inherit"><Link href="/" className="Nav__Link">Clients</Link></Button>
+                <Button variant="text" color="inherit"><Link href="/" className="Nav__Link">Portfolio</Link></Button>
             </ul>
 
 
