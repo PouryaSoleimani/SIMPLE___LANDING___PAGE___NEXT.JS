@@ -13,11 +13,10 @@ const robotoMono = Roboto({ variable: "--font-roboto-sans", subsets: ["latin"], 
 export default function Home() {
 
     return (
-        <main className="relative">
-            <Container maxWidth="lg" className="border py-10 h-auto bg-white">
+        <main>
+            <Container maxWidth="lg" className="border py-10 h-auto bg-white ">
                 <HeaderTemplate />
                 <WorksTemplate />
-                <SpeedDialComponent />
             </Container>
         </main>
     )

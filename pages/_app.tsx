@@ -4,8 +4,9 @@ import SpeedDialComponent from "@/components/modules/speed-dial/SpeedDialCompone
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <section className="relative">
+    <>
       <Component {...pageProps} />
-    </section>
+      <SpeedDialComponent />
+    </>
   )
 }
