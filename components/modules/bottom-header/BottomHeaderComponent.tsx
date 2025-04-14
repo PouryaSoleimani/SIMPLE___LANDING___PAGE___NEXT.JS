@@ -4,7 +4,7 @@ import React from 'react'
 
 function BottomHeaderComponent() {
     return (
-        <div className='flex flex-col md:flex-row items-center justify-between w-full mt-16 lg:px-10'>
+        <div className='flex flex-col sm:flex-row items-center justify-between w-full mt-16 lg:px-10'>
 
             <div id="HEADER__CONTENT" className='basis-1/2 px-10'>
                 <h2 className='text-5xl font-black text-center my-6 text-slate-900 leading-[4rem] mx-auto'>Create a New Generation website for your Business</h2>
