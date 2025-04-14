@@ -12,22 +12,17 @@ interface CommentBoxProps { id: number, body: string, userName: string, userImag
 const CommentBoxComponent: React.FC<CommentBoxProps> = ({ id, body, userName, userImage }) => {
 
     return (
-        <Card sx={{ minWidth: "auto", margin: "0 1rem" }}>
+        <Card sx={{ minWidth: "auto", margin: "0 1rem" , padding : "0 1rem" }}>
+
             <CardContent>
-                <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 13 }}>
-                    {body}
-                </Typography>
-                <Typography variant="h5" component="div">
-                </Typography>
-                <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>adjective</Typography>
-                <Typography variant="body2">
-                    well meaning and kindly.
-                    <br />
-                </Typography>
+                <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 16 }}>{body} </Typography>
             </CardContent>
-            <CardActions>
-                <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+
+            <CardActions className='gap-5'>
+                <Avatar alt="Cindy Baker" src={userImage} sx={{ width: 54, height: 54 }} />
+                <Typography variant="button">{userName}</Typography>
             </CardActions>
+
         </Card>
     )
 }
