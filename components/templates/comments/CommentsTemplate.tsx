@@ -33,7 +33,7 @@ type SingleCommentBoxType = { id: number, body: string, userName: string, userIm
 
 function CommentsTemplate() {
     return (
-        <div className='h-[45rem] bg-blue-600 rounded-2xl px-6 py-16'>
+        <div className='h-[43rem] bg-blue-600 rounded-2xl px-6 py-16'>
             <h2 className='text-center font-bold text-4xl text-white tracking-wide'>You're In a good hand</h2>
             <p className='text-center w-1/3 mx-auto mt-6 text-white'>There are many variations of passages of Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusamus.</p>
 
@@ -44,33 +44,33 @@ function CommentsTemplate() {
             </div>
 
             <div className='flex items-center justify-around mt-16 logos___wrapper'>
-                <IoLogoAngular className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoChrome className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoCodepen className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoBitcoin className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoFacebook className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoCss3 className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoFreebsdDevil className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoFlickr className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoGameControllerB className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoGithub className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoGameControllerA className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoJavascript className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoLinkedin className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoPinterest className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoPython className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoTwitter className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoVimeo className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoVk className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoYoutube className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoYen className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoAngular className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoChrome className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoCodepen className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoBitcoin className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoFacebook className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoCss3 className="w-38 h-38 shrink-0 mx-3 text-white" />
-                <IoLogoFreebsdDevil className="w-38 h-38 shrink-0 mx-3 text-white" />
+                <IoLogoAngular className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoChrome className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoCodepen className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoBitcoin className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoFacebook className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoCss3 className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoFreebsdDevil className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoFlickr className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoGameControllerB className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoGithub className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoGameControllerA className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoJavascript className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoLinkedin className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoPinterest className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoPython className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoTwitter className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoVimeo className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoVk className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoYoutube className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoYen className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoAngular className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoChrome className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoCodepen className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoBitcoin className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoFacebook className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoCss3 className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoFreebsdDevil className="w-24 h-24 shrink-0 mx-3 text-white" />
             </div>
         </div>
     )
