@@ -1,4 +1,5 @@
 import SingleWorkBoxComponent from '@/components/modules/workbox/SingleWorkBoxComponent'
+import Image from 'next/image'
 import React from 'react'
 
 
@@ -22,6 +23,9 @@ function WorksTemplate() {
                 {workBoxeData.map((item: SingleWorkType) => (
                     <SingleWorkBoxComponent {...item} />
                 ))}
+            </div>
+            <div className='flex items-center justify-center mt-4'>
+                <Image src="/work-4.jpg" width={1024} height={968} alt='work-image' />
             </div>
         </div>
     )
