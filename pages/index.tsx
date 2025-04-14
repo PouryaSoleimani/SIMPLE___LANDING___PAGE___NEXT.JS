@@ -1,6 +1,4 @@
-import Image from "next/image";
 import { Roboto } from "next/font/google";
-import { main } from "framer-motion/client";
 import { Button } from "@mui/material";
 
 const robotoMono = Roboto({ variable: "--font-roboto-sans", subsets: ["latin"], });
