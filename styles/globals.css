@@ -31,15 +31,6 @@
 }
 
 /* RESPONSIVE BREAK POINTS: 1200px || 992px || 768px || 576px  */
-html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-	overflow-x: hidden;
-	position: relative;
-}
-
 body {
 	background: var(--background);
 	color: var(--foreground);
