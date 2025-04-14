@@ -10,7 +10,7 @@ export default function Home() {
 
     return (
         <main className="w-screen h-screen flex items-center justify-center">
-            <Container maxWidth="lg" className="border-2 h-screen">
+            <Container maxWidth="lg" className="border h-screen">
                 <Button variant="contained">GELLO</Button>
             </Container>
 
