@@ -12,7 +12,7 @@ function BottomHeaderComponent() {
             </div>
 
             <div id="HEADER__CONTENT" className='basis-full lg:basis-1/2 px-10 lg:px-6  flex items-center flex-col'>
-                <h1 className=' header--title text-5xl font-black text-center lg:text-start my-6 text-slate-900 leading-[4rem] mx-auto w-full sm:w-[85%] md:w-full'>Create a New Generation website for your Business</h1>
+                <h1 className='w-full xs:w-[80%] inline-block text-5xl font-black text-center lg:text-start my-6 tracking-tighter text-slate-900 leading-[4rem] mx-auto sm:w-3/4 md:w-full'>Create a New Generation website for your Business</h1>
                 <p className=' text-xl text-zinc-600 leading-[3rem] text-justify'>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere recusandae amet liberoempore. Saepe, repellendus est ipsa veniam dolorem illum harum quasi.
                     adipisicing elit. Facere recusandae amet liberoempore. Saepe, repellendus est ipsa ve adipisicing elit. Facere recusandae amet liberoempore. Saepe, repellendus est
