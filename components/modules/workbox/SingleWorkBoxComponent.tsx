@@ -5,7 +5,10 @@ interface SingleWorkBoxProps { id: number, title: string, desc: string }
 
 const SingleWorkBoxComponent: React.FC<SingleWorkBoxProps> = ({ title, desc }) => {
     return (
-        <div>SingleWorkBoxComponent</div>
+        <div>
+            <h3>{title}</h3>
+            <p>{desc}</p>
+        </div>
     )
 }
 
