@@ -18,8 +18,6 @@ import { IoLogoBitcoin } from "react-icons/io";
 import { IoLogoCodepen } from "react-icons/io";
 import { IoLogoChrome } from "react-icons/io";
 import { IoLogoAngular } from "react-icons/io";
-import { DiJqueryLogo } from "react-icons/di";
-import { FcCdLogo } from "react-icons/fc";
 import CommentBoxComponent from '@/components/modules/comment-box/CommentBoxComponent'
 import React from 'react'
 
@@ -73,7 +71,7 @@ function CommentsTemplate() {
                 <IoLogoFreebsdDevil className="w-24 h-24 shrink-0 mx-3 text-white" />
             </div>
 
-            
+
         </div>
     )
 }
