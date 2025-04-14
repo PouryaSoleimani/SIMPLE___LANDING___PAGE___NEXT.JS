@@ -7,6 +7,7 @@ const robotoMono = Roboto({ variable: "--font-roboto-sans", subsets: ["latin"], 
 
 //  LANDING PAGE ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 export default function Home() {
+
     return (
         <main className="w-screen h-screen flex items-center justify-center">
             <Button type="button" variant="contained" color="primary"> HELLO WORLD</Button>
