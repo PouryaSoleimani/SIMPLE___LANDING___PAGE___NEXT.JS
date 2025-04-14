@@ -4,19 +4,19 @@ import React from 'react'
 
 function BottomHeaderComponent() {
     return (
-        <div className='flex flex-col md:flex-row items-center justify-between w-full mt-16 lg:px-10'>
+        <div className='flex flex-col lg:flex-row items-center justify-between w-full mt-16 lg:px-10'>
 
 
-            <div id='HEADER___IMAGE' className='w-full md:basis-1/2'>
+            <div id='HEADER___IMAGE' className='w-full lg:basis-1/2'>
                 <Image src="/header___image.jpg" width={1500} height={1500} alt='header--image' className='h-auto' />
             </div>
 
-            <div id="HEADER__CONTENT" className='md:basis-1/2 px-10 flex items-center flex-col'>
+            <div id="HEADER__CONTENT" className='lg:basis-1/2 px-10 flex items-center flex-col'>
                 <h2 className='text-5xl font-black text-center my-6 text-slate-900 leading-[4rem] mx-auto'>Create a New Generation website for your Business</h2>
                 <p className=' text-xl text-zinc-600 leading-[3rem] text-justify'>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere recusandae amet libero placeat ipsa, soluta laboriosa veniam tempore. Saepe, rerum, obcaecati vel quae architecto error sed, repellendus est ipsa veniam dolorem illum harum quasi.
                 </p>
-                <div id="HEADER___BUTTONS" className='flex items-center justify-center md:justify-start md:self-start mt-6 gap-4'>
+                <div id="HEADER___BUTTONS" className='flex items-center justify-center lg:justify-start lg:self-start mt-6 gap-4'>
                     <Button variant='contained' size='large' color='success'>Contact Us</Button>
                     <Button variant='contained' size='large' color='primary'>See our Works</Button>
                 </div>
