@@ -8,7 +8,7 @@ function BottomHeaderComponent() {
 
 
             <div id='HEADER___IMAGE' className='h-full basis-full lg:basis-1/2 px-4'>
-                <Image src="/header___image.jpg" width={1500} height={1800} alt='header--image' className='object-cover h-96' />
+                <Image src="/header___image.jpg" width={1500} height={1800} alt='header--image' className='object-cover h-96 w-full' />
             </div>
 
             <div id="HEADER__CONTENT" className='basis-full lg:basis-1/2 px-10 lg:px-6  flex items-center flex-col'>
