@@ -72,6 +72,8 @@ function CommentsTemplate() {
                 <IoLogoCss3 className="w-24 h-24 shrink-0 mx-3 text-white" />
                 <IoLogoFreebsdDevil className="w-24 h-24 shrink-0 mx-3 text-white" />
             </div>
+
+            
         </div>
     )
 }
