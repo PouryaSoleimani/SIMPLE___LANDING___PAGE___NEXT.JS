@@ -11,7 +11,7 @@ export default function Home() {
 
     return (
         <main>
-            <Container maxWidth="lg" className="border h-screen">
+            <Container maxWidth="lg" className="border h-[3000px]">
                 <AppBarComponent />
             </Container>
         </main>
