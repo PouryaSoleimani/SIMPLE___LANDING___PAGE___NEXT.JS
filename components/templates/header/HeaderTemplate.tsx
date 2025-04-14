@@ -1,8 +1,11 @@
+import AppBarComponent from '@/components/modules/appbar/AppBarComponent'
 import React from 'react'
 
 function HeaderTemplate() {
     return (
-        <div>HeaderTemplate</div>
+        <>
+        <AppBarComponent />
+        </>
     )
 }
 
