@@ -9,7 +9,7 @@ import InputBase from '@mui/material/InputBase';
 import Badge from '@mui/material/Badge';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
-
+import Avatar from '@mui/material/Avatar';
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -78,18 +78,7 @@ export default function PrimarySearchAppBar() {
 
     const menuId = 'primary-search-account-menu';
     const renderMenu = (
-        <Menu
-            anchorEl={anchorEl}
-            anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-            }}
-            id={menuId}
-            keepMounted
-            transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-            }}
+        <Menu anchorEl={anchorEl} anchorOrigin={{ vertical: 'top', horizontal: 'right', }} id={menuId} keepMounted transformOrigin={{ vertical: 'top', horizontal: 'right', }}
             open={isMenuOpen}
             onClose={handleMenuClose}
         >
@@ -100,18 +89,10 @@ export default function PrimarySearchAppBar() {
 
     const mobileMenuId = 'primary-search-account-menu-mobile';
     const renderMobileMenu = (
-        <Menu
-            anchorEl={mobileMoreAnchorEl}
-            anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-            }}
+        <Menu anchorEl={mobileMoreAnchorEl} anchorOrigin={{ vertical: 'top', horizontal: 'right', }}
             id={mobileMenuId}
             keepMounted
-            transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-            }}
+            transformOrigin={{ vertical: 'top', horizontal: 'right', }}
             open={isMobileMenuOpen}
             onClose={handleMobileMenuClose}
         >
