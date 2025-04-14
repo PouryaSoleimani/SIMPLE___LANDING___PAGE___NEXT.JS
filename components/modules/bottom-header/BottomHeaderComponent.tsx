@@ -6,6 +6,7 @@ function BottomHeaderComponent() {
     return (
         <div className='flex flex-col md:flex-row-reverse items-center justify-between w-full mt-16 lg:px-10'>
 
+
             <div id='HEADER___IMAGE' className='w-full md:basis-1/2'>
                 <Image src="/header___image.jpg" width={1500} height={1500} alt='header--image' className='h-auto' />
             </div>
@@ -20,6 +21,7 @@ function BottomHeaderComponent() {
                     <Button variant='contained' size='large' color='primary'>See our Works</Button>
                 </div>
             </div>
+
 
         </div>
     )
