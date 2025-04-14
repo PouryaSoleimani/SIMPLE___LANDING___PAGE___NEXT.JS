@@ -1,3 +1,4 @@
+import SingleWorkBoxComponent from '@/components/modules/workbox/SingleWorkBoxComponent'
 import React from 'react'
 
 
@@ -14,11 +15,13 @@ function WorksTemplate() {
 
     // RETURN
     return (
-        <div>
-            <h2>HOW IT WORK</h2>
-            <h3>Three Simple Step to Start Working Progress</h3>
-            <div>
-
+        <div className='flex flex-col py-4 lg:py-10 w-full'>
+            <h2 className='text-center text-xl text-zinc-600'>HOW IT WORK</h2>
+            <h3 className='text-center my-2 text-4xl font-semibold tracking-wide'>Three Simple Step to Start Working Progress</h3>
+            <div className='flex flex-col lg:flex-row items-center justify-center gap-0 lg:gap-x-4'>
+                {workBoxeData.map((item: SingleWorkType) => (
+                    <SingleWorkBoxComponent {...item} />
+                ))}
             </div>
         </div>
     )
