@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import { Avatar } from '@mui/material';
+import { Avatar, Divider } from '@mui/material';
 
 interface CommentBoxProps { id: number, body: string, userName: string, userImage: string }
 
@@ -18,7 +18,9 @@ const CommentBoxComponent: React.FC<CommentBoxProps> = ({ id, body, userName, us
                 <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 16 }}>{body} </Typography>
             </CardContent>
 
-            <CardActions className='gap-5'>
+            <Divider />
+
+            <CardActions className='gap-5 pt-2'>
                 <Avatar alt="Cindy Baker" src={userImage} sx={{ width: 54, height: 54 }} />
                 <Typography variant="button">{userName}</Typography>
             </CardActions>
