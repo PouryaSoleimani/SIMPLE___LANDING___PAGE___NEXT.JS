@@ -1,7 +1,9 @@
 import React from 'react'
 
 const commentsData = [
-    { id: 1, body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio fugiat nulla voluptates ipsum amet laboriosam adipisci est consectetur cupiditate natus!", userName: "Alfred Carlos" , userImage : "/"}
+    { id: 1, body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio fugiat nulla voluptates ipsum amet laboriosam adipisci est consectetur cupiditate natus!", userName: "Alfred Carlos", userImage: "/user-1.jpg" }
+    { id: 2, body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio fugiat nulla voluptates ipsum amet laboriosam adipisci est consectetur cupiditate natus!", userName: "Alfred Carlos", userImage: "/user-2.jpg" },
+    { id: 3, body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio fugiat nulla voluptates ipsum amet laboriosam adipisci est consectetur cupiditate natus!", userName: "Alfred Carlos", userImage: "/user-3.jpg" },
 ]
 
 
