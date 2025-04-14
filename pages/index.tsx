@@ -17,6 +17,7 @@ export default function Home() {
             <Container maxWidth="lg" className="border py-10 h-auto bg-white ">
                 <HeaderTemplate />
                 <WorksTemplate />
+                <SpeedDialComponent />
             </Container>
         </main>
     )
