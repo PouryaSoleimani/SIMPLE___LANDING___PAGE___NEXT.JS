@@ -15,7 +15,7 @@ export default function Home() {
 
     return (
         <main>
-            <Container maxWidth="lg" className="border py-10 h-auto bg-white ">
+            <Container maxWidth="lg" className="border py-10 h-auto bg-white overflow-x-hidden">
                 <HeaderTemplate />
                 <WorksTemplate />
                 <CommentsTemplate />
