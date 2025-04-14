@@ -6,7 +6,7 @@ function HeaderTemplate() {
     return (
         <>
             <AppBarComponent />
-            <BottomHeaderComponent/>
+            <BottomHeaderComponent />
         </>
     )
 }
