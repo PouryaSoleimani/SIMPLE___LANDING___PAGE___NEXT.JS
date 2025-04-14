@@ -16,9 +16,11 @@ function BottomHeaderComponent() {
                     <Button variant='contained' size='large' color='primary'>See our Works</Button>
                 </div>
             </div>
+           
             <div id='HEADER___IMAGE' className='w-full basis-1/2'>
                 <Image src="/header___image.jpg" width={1500} height={1500} alt='header--image' className='h-auto' />
             </div>
+            
         </div>
     )
 }
