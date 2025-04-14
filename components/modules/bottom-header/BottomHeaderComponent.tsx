@@ -8,8 +8,8 @@ function BottomHeaderComponent() {
 
             <div id="HEADER__CONTENT" className='basis-1/2 px-10'>
                 <h2 className='text-5xl font-black text-center my-6 text-slate-900 leading-[4rem] mx-auto'>Create a New Generation website for your Business</h2>
-                <p className=' text-xl text-zinc-700 leading-[3rem] text-justify'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere recusandae amet libero placeat ipsa, soluta laboriosam aspernatur repudiandae voluptas non quidem numquam voluptates dolores labore deserunt aliquam assumenda magnam eum cumque vero veniam tempore. Saepe, rerum, obcaecati vel quae architecto error sed, repellendus est ipsa veniam dolorem illum harum quasi.
+                <p className=' text-xl text-zinc-600 leading-[3rem] text-justify'>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere recusandae amet libero placeat ipsa, soluta laboriosa veniam tempore. Saepe, rerum, obcaecati vel quae architecto error sed, repellendus est ipsa veniam dolorem illum harum quasi.
                 </p>
                 <div id="HEADER___BUTTONS" className='flex items-center justify-start mt-6 gap-4'>
                     <Button variant='contained' size='large' color='success'>Contact Us</Button>
