@@ -2,6 +2,7 @@ import { Roboto } from "next/font/google";
 import { Button, Container } from "@mui/material";
 import AppBarComponent from "@/components/modules/appbar/AppBarComponent";
 import HeaderTemplate from "@/components/templates/header/HeaderTemplate";
+import SpeedDialComponent from "@/components/modules/speed-dial/SpeedDialComponent";
 const robotoMono = Roboto({ variable: "--font-roboto-sans", subsets: ["latin"], });
 
 
@@ -11,9 +12,10 @@ const robotoMono = Roboto({ variable: "--font-roboto-sans", subsets: ["latin"], 
 export default function Home() {
 
     return (
-        <main>
-            <Container maxWidth="lg" className="border h-[3000px] bg-white">
+        <main className="relative">
+            <Container maxWidth="lg" className="border py-10 h-auto bg-white">
                 <HeaderTemplate />
+                <SpeedDialComponent />
             </Container>
         </main>
     )

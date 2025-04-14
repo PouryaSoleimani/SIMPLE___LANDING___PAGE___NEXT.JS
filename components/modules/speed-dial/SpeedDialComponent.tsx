@@ -11,23 +11,20 @@ import SpeedDialAction from '@mui/material/SpeedDialAction';
 
 
 const actions = [
-    { icon: <FaCopy />, name: 'Copy' },
-    { icon: <IoMdSave />, name: 'Save' },
-    { icon: <BsPrinterFill />, name: 'Print' },
-    { icon: <FaShareAlt />, name: 'Share' },
+    { icon: <FaCopy className="w-8 h-8" />, name: 'Copy' },
+    { icon: <IoMdSave className="w-8 h-8" />, name: 'Save' },
+    { icon: <BsPrinterFill className="w-8 h-8" />, name: 'Print' },
+    { icon: <FaShareAlt className="w-8 h-8" />, name: 'Share' },
 ];
 
 export default function SpeedDialComponent() {
     return (
-        <div className="w-full h-16 flex items-center justify-end">
-            <Box sx={{ height: 320, transform: 'translateZ(0px)', flexGrow: 1 }}>
-                <SpeedDial ariaLabel="SpeedDial openIcon example" sx={{ position: 'absolute', bottom: 16, right: 16 }} icon={<SpeedDialIcon openIcon={<AiFillEdit />} />}   >
-                    {actions.map((action) => (
-                        <SpeedDialAction key={action.name} icon={action.icon} tooltipTitle={action.name} />
-                    ))}
-                </SpeedDial>
-            </Box>
-        </div>
-
+        <Box sx={{ height: 320, transform: 'translateZ(0px)', flexGrow: 1 }}>
+            <SpeedDial ariaLabel="SpeedDial openIcon example" sx={{ position: 'fixed', bottom: 0, right: 0 }} icon={<SpeedDialIcon openIcon={<AiFillEdit className="w-8 h-8" />} />}   >
+                {actions.map((action) => (
+                    <SpeedDialAction key={action.name} icon={action.icon} tooltipTitle={action.name} />
+                ))}
+            </SpeedDial>
+        </Box>
     );
 }
