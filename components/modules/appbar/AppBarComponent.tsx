@@ -1,3 +1,10 @@
+import { FiMoreVertical } from "react-icons/fi";
+import { IoMdNotifications } from "react-icons/io";
+import { BiSearchAlt } from "react-icons/bi";
+import { HiOutlineMenu } from "react-icons/hi";
+import { MdAccountCircle } from "react-icons/md";
+import { IoIosNotifications } from "react-icons/io";
+import { IoIosMail } from "react-icons/io";
 import * as React from 'react';
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
@@ -99,7 +106,7 @@ export default function PrimarySearchAppBar() {
             <MenuItem>
                 <IconButton size="large" aria-label="show 4 new mails" color="inherit">
                     <Badge badgeContent={4} color="error">
-                        <MailIcon />
+                        <IoIosMail />
                     </Badge>
                 </IconButton>
                 <p>Messages</p>
@@ -111,7 +118,7 @@ export default function PrimarySearchAppBar() {
                     color="inherit"
                 >
                     <Badge badgeContent={17} color="error">
-                        <NotificationsIcon />
+                        <IoIosNotifications />
                     </Badge>
                 </IconButton>
                 <p>Notifications</p>
@@ -124,7 +131,7 @@ export default function PrimarySearchAppBar() {
                     aria-haspopup="true"
                     color="inherit"
                 >
-                    <AccountCircle />
+                    <MdAccountCircle />
                 </IconButton>
                 <p>Profile</p>
             </MenuItem>
@@ -135,14 +142,8 @@ export default function PrimarySearchAppBar() {
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
                 <Toolbar>
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="open drawer"
-                        sx={{ mr: 2 }}
-                    >
-                        <MenuIcon />
+                    <IconButton size="large" edge="start" color="inherit" aria-label="open drawer" sx={{ mr: 2 }} >
+                        <HiOutlineMenu />
                     </IconButton>
                     <Typography
                         variant="h6"
@@ -154,7 +155,7 @@ export default function PrimarySearchAppBar() {
                     </Typography>
                     <Search>
                         <SearchIconWrapper>
-                            <SearchIcon />
+                            <BiSearchAlt />
                         </SearchIconWrapper>
                         <StyledInputBase
                             placeholder="Search…"
@@ -165,7 +166,7 @@ export default function PrimarySearchAppBar() {
                     <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
                         <IconButton size="large" aria-label="show 4 new mails" color="inherit">
                             <Badge badgeContent={4} color="error">
-                                <MailIcon />
+                                <IoIosMail />
                             </Badge>
                         </IconButton>
                         <IconButton
@@ -174,7 +175,7 @@ export default function PrimarySearchAppBar() {
                             color="inherit"
                         >
                             <Badge badgeContent={17} color="error">
-                                <NotificationsIcon />
+                                <IoMdNotifications />
                             </Badge>
                         </IconButton>
                         <IconButton
@@ -186,7 +187,7 @@ export default function PrimarySearchAppBar() {
                             onClick={handleProfileMenuOpen}
                             color="inherit"
                         >
-                            <AccountCircle />
+                            <MdAccountCircle />
                         </IconButton>
                     </Box>
                     <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
@@ -198,7 +199,7 @@ export default function PrimarySearchAppBar() {
                             onClick={handleMobileMenuOpen}
                             color="inherit"
                         >
-                            <MoreIcon />
+                            <FiMoreVertical />
                         </IconButton>
                     </Box>
                 </Toolbar>
