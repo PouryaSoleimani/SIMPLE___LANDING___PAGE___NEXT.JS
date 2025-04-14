@@ -12,7 +12,7 @@ interface CommentBoxProps { id: number, body: string, userName: string, userImag
 const CommentBoxComponent: React.FC<CommentBoxProps> = ({ id, body, userName, userImage }) => {
 
     return (
-        <Card sx={{ minWidth: "auto", margin: "0 1rem" , padding : "0 1rem" }}>
+        <Card sx={{ minWidth: "auto", margin: "0 1rem", padding: "0 1rem" }} className='comment__box'>
 
             <CardContent>
                 <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 16 }}>{body} </Typography>
