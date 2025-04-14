@@ -5,16 +5,17 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { Avatar } from '@mui/material';
 
-
+interface CommentBoxProps { id: number, body: string, userName: string, userImage: string }
 
 
 // COMPONENT =========================================================================================================================================================================
-function CommentBoxComponent() {
+const CommentBoxComponent: React.FC<CommentBoxProps> = ({ id, body, userName, userImage }) => {
+
     return (
-        <Card sx={{ minWidth: 275 }}>
+        <Card sx={{ minWidth: "auto", margin: "0 1rem" }}>
             <CardContent>
-                <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
-                    Word of the Day
+                <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 13 }}>
+                    {body}
                 </Typography>
                 <Typography variant="h5" component="div">
                 </Typography>
