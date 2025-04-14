@@ -9,11 +9,10 @@ const robotoMono = Roboto({ variable: "--font-roboto-sans", subsets: ["latin"], 
 export default function Home() {
 
     return (
-        <main className="w-screen h-screen flex items-center justify-center">
+        <main>
             <Container maxWidth="lg" className="border h-screen">
-                <Button variant="contained">GELLO</Button>
-            </Container>
 
+            </Container>
         </main>
     )
 }
