@@ -34,18 +34,18 @@ type SingleCommentBoxType = { id: number, body: string, userName: string, userIm
 function CommentsTemplate() {
     return (
 
-        <Box component="div" className='h-[45rem] bg-blue-600 rounded-2xl px-6 py-16 relative z-10 ' >
+        <Box component="div" className='h-auto bg-blue-600 rounded-2xl px-6 py-16 relative z-10 ' >
             <h2 className='text-center font-bold text-4xl text-white tracking-wide'>You're In a good hand</h2>
-            <p className='text-center w-1/3 mx-auto mt-6 text-white'>There are many variations of passages of Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusamus.</p>
+            <p className='text-center lg:w-1/3 mx-auto mt-6 text-white'>There are many variations of passages of Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusamus.</p>
 
-            <div className='flex flex-col lg:flex-row gap-y-6 lg:gap-0 items-center justify-around mt-16'>
+            <div className='flex flex-col md:flex-row gap-y-6 lg:gap-0 items-center justify-around mt-16'>
                 {commentsData.map((item: SingleCommentBoxType) => (
                     <CommentBoxComponent key={item.id} {...item} />
                 ))}
             </div>
 
 
-            <Box component="div" className='flex items-center justify-around mt-20 flex-wrap' >
+            <div className='flex items-center justify-around mt-20 flex-wrap' >
                 <IoLogoAngular className="w-24 h-24 shrink-0 mx-3 text-white" />
                 <IoLogoChrome className="w-24 h-24 shrink-0 mx-3 text-white" />
                 <IoLogoCodepen className="w-24 h-24 shrink-0 mx-3 text-white" />
@@ -58,7 +58,7 @@ function CommentsTemplate() {
                 <IoLogoGithub className="w-24 h-24 shrink-0 mx-3 text-white" />
                 <IoLogoGameControllerA className="w-24 h-24 shrink-0 mx-3 text-white" />
                 <IoLogoJavascript className="w-24 h-24 shrink-0 mx-3 text-white" />
-            </Box>
+            </div>
 
         </Box>
     )
