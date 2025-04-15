@@ -12,7 +12,7 @@ const robotoMono = Roboto({ variable: "--font-roboto-sans", subsets: ["latin"], 
 export default function Home() {
 
     return (
-        <main className={`font-[${robotoMono.className}] relative`}>
+        <main className={`font-[${robotoMono.className}] relative z-10`}>
             <Container maxWidth="lg" className="py-10 h-auto bg-white">
                 <HeaderTemplate />
                 <WorksTemplate />

@@ -4,7 +4,7 @@ import React from 'react'
 
 function BottomHeaderComponent() {
     return (
-        <div className='flex flex-col lg:flex-row items-center justify-between w-full mt-16 lg:px-10'>
+        <div className='flex flex-col lg:flex-row items-center justify-between w-full mt-16 lg:px-10 z-10'>
 
 
             <div id='HEADER___IMAGE' className='h-full basis-full lg:basis-1/2 px-4'>
