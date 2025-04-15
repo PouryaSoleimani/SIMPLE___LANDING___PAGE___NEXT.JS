@@ -38,7 +38,7 @@ function CommentsTemplate() {
             <h2 className='text-center font-bold text-4xl text-white tracking-wide'>You're In a good hand</h2>
             <p className='text-center w-1/3 mx-auto mt-6 text-white'>There are many variations of passages of Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusamus.</p>
 
-            <div className='flex flex-col lg:flex-row items-center justify-around mt-16'>
+            <div className='flex flex-col lg:flex-row gap-y-6 lg:gap-0 items-center justify-around mt-16'>
                 {commentsData.map((item: SingleCommentBoxType) => (
                     <CommentBoxComponent key={item.id} {...item} />
                 ))}
