@@ -58,21 +58,6 @@ function CommentsTemplate() {
                 <IoLogoGithub className="w-24 h-24 shrink-0 mx-3 text-white" />
                 <IoLogoGameControllerA className="w-24 h-24 shrink-0 mx-3 text-white" />
                 <IoLogoJavascript className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoLinkedin className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoPinterest className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoPython className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoTwitter className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoVimeo className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoVk className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoYoutube className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoYen className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoAngular className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoChrome className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoCodepen className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoBitcoin className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoFacebook className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoCss3 className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoFreebsdDevil className="w-24 h-24 shrink-0 mx-3 text-white" />
             </Box>
 
         </Box>

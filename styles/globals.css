@@ -70,7 +70,3 @@ button {
 		transform: translateX(-100%);
 	}
 }
-
-.logos___wrapper {
-	animation: logoAnimation 22s linear infinite;
-}
