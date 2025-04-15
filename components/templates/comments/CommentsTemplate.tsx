@@ -25,7 +25,7 @@ type SingleCommentBoxType = { id: number, body: string, userName: string, userIm
 function CommentsTemplate() {
     return (
 
-        <Box component="div" className='h-auto bg-blue-600 rounded-2xl px-6 py-16 z-10 ' >
+        <Box component="div" className='bg-blue-600 rounded-2xl px-6 py-16 z-10 ' >
             <h2 className='text-center font-bold text-4xl text-white tracking-wide'>You're In a good hand</h2>
             <p className='text-center lg:w-1/3 mx-auto mt-6 text-white'>There are many variations of passages of Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusamus.</p>
 
