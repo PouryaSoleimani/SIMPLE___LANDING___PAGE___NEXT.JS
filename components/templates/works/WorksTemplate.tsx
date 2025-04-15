@@ -21,7 +21,7 @@ function WorksTemplate() {
             <h3 className='text-center my-2 text-4xl font-semibold tracking-wide'>Three Simple Step to Start Working Progress</h3>
             <div className='flex flex-col lg:flex-row items-center justify-center gap-0 gap-y-10 lg:gap-y-0 lg:gap-x-4 mt-16'>
                 {workBoxeData.map((item: SingleWorkType) => (
-                    <SingleWorkBoxComponent {...item} />
+                    <SingleWorkBoxComponent key={item.id} {...item} />
                 ))}
             </div>
             <div className='flex items-center justify-center mt-4'>
