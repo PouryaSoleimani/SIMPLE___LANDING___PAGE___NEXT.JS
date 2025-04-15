@@ -6,7 +6,7 @@ interface GalleryBoxProps { id: number, src: string }
 
 const GalleryBoxComponent: React.FC<GalleryBoxProps> = ({ id, src }) => {
     return (
-        <Card className='w-full md:w-1/3 lg:w-1/4'>
+        <Card className='w-full md:w-1/3 lg:w-1/4 shadow-2xl shadow-zinc-600 gallery__box'>
             <Image src={src} width={1024} height={768} alt={`gallery-image-${id}`} className='h-64' />
         </Card>
     )
