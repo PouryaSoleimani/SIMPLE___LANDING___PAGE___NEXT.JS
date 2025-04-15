@@ -19,7 +19,7 @@ const actions = [
 
 export default function SpeedDialComponent() {
     return (
-        <Box sx={{ height: "100vh", transform: 'translateZ(0px)', flexGrow: 1, position: "sticky", inset: 0, zIndex: 50 }}>
+        <Box sx={{ height: "100vh", transform: 'translateZ(0px)', flexGrow: 1, position: "sticky", inset: 0, zIndex: "0" }}>
             <SpeedDial ariaLabel="SpeedDial openIcon example" sx={{ position: 'absolute', bottom: 30, right: 30 }} icon={<SpeedDialIcon openIcon={<AiFillEdit className="w-8 h-8" />} />}   >
                 {actions.map((action) => (
                     <SpeedDialAction key={action.name} icon={action.icon} tooltipTitle={action.name} />

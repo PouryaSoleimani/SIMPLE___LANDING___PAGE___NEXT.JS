@@ -5,7 +5,7 @@ import { Button } from "@mui/material";
 
 function AppBarComponent() {
     return (
-        <nav className='w-full h-auto flex items-center justify-between pr-3 pl-2 py-2 sticky top-2 left-0 bg-transparent rounded backdrop-blur-2xl border border-slate-200 z-50'>
+        <nav className='w-full h-auto flex items-center justify-between pr-3 pl-2 py-2 sticky top-2 left-0 bg-white/50 rounded backdrop-blur-2xl border border-slate-200 z-50'>
 
             <div className="flex items-center justify-start basis-1/2 md:basis-1/5">
                 <Link href="/">
