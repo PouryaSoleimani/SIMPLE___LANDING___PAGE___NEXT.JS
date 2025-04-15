@@ -20,7 +20,7 @@
 
 @media (prefers-color-scheme:dark) {
 	:root {
-		--background: #edebeb;
+		--background: #bbb7b7;
 		--foreground: #020e31;
 	}
 }
@@ -32,10 +32,18 @@
 
 /* RESPONSIVE BREAK POINTS: 1200px || 992px || 768px || 576px  */
 body {
-	background: var(--background);
+	background: #d3e0f8 !important;
 	color: var(--foreground);
 	font-family: "Roboto ";
 	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+button {
+	all: unset;
 }
 
 .Nav__Link {
