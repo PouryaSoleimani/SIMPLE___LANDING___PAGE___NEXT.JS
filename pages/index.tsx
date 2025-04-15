@@ -13,7 +13,7 @@ export default function Home() {
 
     return (
         <main className={`font-[${robotoMono.className}]`}>
-            <Container maxWidth="lg" className="py-6 h-auto bg-white overflow-x-hidden relative">
+            <Container maxWidth="lg" className="py-6 h-auto bg-white overflow-x-hidden relative inset-0">
                 <HeaderTemplate />
                 <WorksTemplate />
                 <CommentsTemplate />
