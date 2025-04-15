@@ -14,7 +14,7 @@ function AppBarComponent() {
             </div>
 
             <ul id="NAVIGATION____LINKS" className="hidden lg:flex items-center justify-center gap-4 basis-3/5">
-                <Button variant="text" color="inherit"><Link href="/" className="Nav__Link">Home</Link></Button>
+                <Button variant="text" color="inherit" ><Link href="/" className="Nav__Link">Home</Link></Button>
                 <Button variant="text" color="inherit"><Link href="/" className="Nav__Link">About</Link></Button>
                 <Button variant="text" color="inherit"><Link href="/" className="Nav__Link">How it works</Link></Button>
                 <Button variant="text" color="inherit"><Link href="/" className="Nav__Link">Clients</Link></Button>

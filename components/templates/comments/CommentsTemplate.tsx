@@ -1,3 +1,4 @@
+import React from 'react'
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoGameControllerA } from "react-icons/io";
 import { IoLogoGithub } from "react-icons/io";
@@ -11,7 +12,6 @@ import { IoLogoCodepen } from "react-icons/io";
 import { IoLogoChrome } from "react-icons/io";
 import { IoLogoAngular } from "react-icons/io";
 import CommentBoxComponent from '@/components/modules/comment-box/CommentBoxComponent'
-import React from 'react'
 import { Box } from "@mui/material";
 
 const commentsData = [
