@@ -1,4 +1,3 @@
-"use client"
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoGameControllerA } from "react-icons/io";
 import { IoLogoGithub } from "react-icons/io";
@@ -37,7 +36,7 @@ function CommentsTemplate() {
             </div>
 
 
-            <div className='flex items-center justify-around mt-20 flex-wrap' >
+            <Box component="div" className='flex items-center justify-around mt-20 flex-wrap' >
                 <IoLogoAngular className="w-24 h-24 shrink-0 mx-3 text-white" />
                 <IoLogoChrome className="w-24 h-24 shrink-0 mx-3 text-white" />
                 <IoLogoCodepen className="w-24 h-24 shrink-0 mx-3 text-white" />
@@ -50,7 +49,7 @@ function CommentsTemplate() {
                 <IoLogoGithub className="w-24 h-24 shrink-0 mx-3 text-white" />
                 <IoLogoGameControllerA className="w-24 h-24 shrink-0 mx-3 text-white" />
                 <IoLogoJavascript className="w-24 h-24 shrink-0 mx-3 text-white" />
-            </div>
+            </Box>
 
         </Box>
     )
