@@ -1,8 +1,16 @@
+import { Card, CardContent } from '@mui/material'
+import Image from 'next/image'
 import React from 'react'
 
-function GalleryBoxComponent() {
+interface GalleryBoxProps { src: string }
+
+const GalleryBoxComponent: React.FC<GalleryBoxProps> = ({ src }) => {
     return (
-        <div>GalleryBoxComponent</div>
+        <Card>
+            <CardContent>
+                <Image src={src} width={1024} height={768} alt='gallery-image' className='w-auto h-auto' />
+            </CardContent>
+        </Card>
     )
 }
 
