@@ -17,7 +17,7 @@ function GalleryTemplate() {
             <h2 className='text-center text-xl text-zinc-600 mt-8'>PORTFOLIO</h2>
             <h3 className='text-center my-2 text-4xl font-semibold tracking-wide'>Three Simple Step to Start Working Progress</h3>
 
-            <div className='flex'>
+            <div className='flex items-center justify-center flex-wrap  gap-4'>
                 {GalleryImages.map((image: SingleGalleryImage) => (
                     <GalleryBoxComponent key={image.id}  {...image} />
                 ))}
