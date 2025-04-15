@@ -37,7 +37,7 @@ function CommentsTemplate() {
 
             <div className='flex items-center justify-around mt-16'>
                 {commentsData.map((item: SingleCommentBoxType) => (
-                    <CommentBoxComponent {...item} />
+                    <CommentBoxComponent key={item.id} {...item} />
                 ))}
             </div>
 
