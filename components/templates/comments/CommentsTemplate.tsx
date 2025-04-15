@@ -1,12 +1,4 @@
 "use client"
-import { IoLogoYen } from "react-icons/io";
-import { IoLogoYoutube } from "react-icons/io";
-import { IoLogoVk } from "react-icons/io";
-import { IoLogoVimeo } from "react-icons/io";
-import { IoLogoTwitter } from "react-icons/io";
-import { IoLogoPython } from "react-icons/io";
-import { IoLogoPinterest } from "react-icons/io";
-import { IoLogoLinkedin } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoGameControllerA } from "react-icons/io";
 import { IoLogoGithub } from "react-icons/io";
