@@ -3,6 +3,7 @@ import { Container } from "@mui/material";
 import HeaderTemplate from "@/components/templates/header/HeaderTemplate";
 import WorksTemplate from "@/components/templates/works/WorksTemplate";
 import CommentsTemplate from "@/components/templates/comments/CommentsTemplate";
+import GalleryTemplate from "@/components/templates/gallery/GalleryTemplate";
 const robotoMono = Roboto({ variable: "--font-roboto-sans", subsets: ["latin"], });
 
 
@@ -17,6 +18,7 @@ export default function Home() {
                 <HeaderTemplate />
                 <WorksTemplate />
                 <CommentsTemplate />
+                <GalleryTemplate />
             </Container>
         </main>
     )
