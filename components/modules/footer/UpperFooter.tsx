@@ -5,7 +5,7 @@ import React from 'react'
 
 const UpperFooter = () => {
     return (
-        <div className='h-full flex flex-col lg:flex-row items-center justify-evenly px-6'>
+        <div className='h-5/6 flex flex-col lg:flex-row items-center justify-evenly px-6'>
             <h2 className="text-white text-3xl font-bold text-center">Create a new generation website for your business</h2>
             <Paper component="form" sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 250, borderRadius: "6px" }}  >
                 <InputBase sx={{ ml: 1, flex: 1 }} placeholder="Email" inputProps={{ 'aria-label': 'Email' }} />

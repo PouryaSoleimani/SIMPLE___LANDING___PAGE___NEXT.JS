@@ -15,7 +15,7 @@ export default function Home() {
 
     return (
         <main className={`font-[${robotoMono.className}] relative z-10 h-auto`}>
-            <Container maxWidth="lg" sx={{ height: "fit-content" }} className="py-10 bg-white">
+            <Container maxWidth="lg" className="py-10 bg-white">
                 <HeaderTemplate />
                 <WorksTemplate />
                 <CommentsTemplate />

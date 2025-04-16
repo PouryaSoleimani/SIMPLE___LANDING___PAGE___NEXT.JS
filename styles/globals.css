@@ -30,6 +30,7 @@ body {
 	background: #d3e0f8 !important;
 	color: var(--foreground);
 	box-sizing: border-box;
+	height: auto;
 }
 
 *, *::before, *::after {
