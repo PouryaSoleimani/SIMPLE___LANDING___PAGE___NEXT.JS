@@ -4,7 +4,7 @@ import React from 'react'
 
 const FooterTemplate = () => {
     return (
-        <footer>
+        <footer className='w-full py-10 bg-blue-600 mt-10'>
             <UpperFooter />
             <CopyRightComponent />
         </footer>

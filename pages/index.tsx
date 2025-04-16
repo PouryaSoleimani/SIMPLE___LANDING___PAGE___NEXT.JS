@@ -4,6 +4,7 @@ import HeaderTemplate from "@/components/templates/header/HeaderTemplate";
 import WorksTemplate from "@/components/templates/works/WorksTemplate";
 import CommentsTemplate from "@/components/templates/comments/CommentsTemplate";
 import GalleryTemplate from "@/components/templates/gallery/GalleryTemplate";
+import FooterTemplate from "@/components/templates/footer/FooterTemplate";
 const robotoMono = Roboto({ variable: "--font-roboto-sans", subsets: ["latin"], });
 
 
@@ -19,6 +20,7 @@ export default function Home() {
                 <WorksTemplate />
                 <CommentsTemplate />
                 <GalleryTemplate />
+                <FooterTemplate/>
             </Container>
         </main>
     )

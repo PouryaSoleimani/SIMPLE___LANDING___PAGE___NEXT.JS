@@ -2,7 +2,7 @@ import React from 'react'
 
 const UpperFooter = () => {
     return (
-        <div>UpperFooter</div>
+        <div className='h-2/3'>UpperFooter</div>
     )
 }
 
