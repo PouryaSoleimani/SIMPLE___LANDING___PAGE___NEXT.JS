@@ -3,11 +3,11 @@ import React from 'react'
 
 const GalleryImages = [
     { id: 1, src: "/design-1.png" },
-    { id: 1, src: "/design-2.jpg" },
-    { id: 1, src: "/design-3.jpg" },
-    { id: 1, src: "/design-4.jpg" },
-    { id: 1, src: "/design-5.webp" },
-    { id: 1, src: "/design-6.webp" },
+    { id: 2, src: "/design-2.jpg" },
+    { id: 3, src: "/design-3.jpg" },
+    { id: 4, src: "/design-4.jpg" },
+    { id: 5, src: "/design-5.webp" },
+    { id: 6, src: "/design-6.webp" },
 ]
 type SingleGalleryImage = { id: number, src: string }
 
