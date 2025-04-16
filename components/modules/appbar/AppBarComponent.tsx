@@ -40,7 +40,7 @@ function AppBarComponent() {
 
             </nav>
 
-            <ul id="NAVIGATION____LINKS" className={`flex md:hidden flex-col pt-6 items-start text-start duration-300 fixed ${!isMenuShow ? "left-[-250px]" : "left-0"} top-0 bg-blue-600 text-white  h-screen w-[60vw] z-50`}>
+            <ul id="NAVIGATION____LINKS" className={`flex md:hidden flex-col pt-6 items-start text-start ease-linear duration-300 fixed ${!isMenuShow ? "left-[-100vw]" : "left-0"} top-0 bg-blue-600 text-white  h-screen w-[60vw] z-50`}>
                 <DiJqueryUiLogo className="w-16 h-16 ml-2" />
                 <Button variant="text" color="inherit" sx={{ textAlign: "start", width: "100%" }}><Link href="/" className="text-xl my-4 w-full px-2">Home</Link></Button>
                 <Button variant="text" color="inherit" sx={{ textAlign: "start", width: "100%" }}><Link href="/" className="text-xl my-4 w-full px-2">About</Link></Button>
