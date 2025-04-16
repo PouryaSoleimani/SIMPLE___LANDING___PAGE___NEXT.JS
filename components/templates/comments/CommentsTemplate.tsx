@@ -37,18 +37,18 @@ function CommentsTemplate() {
 
 
             <Box component="div" className='flex items-center justify-around mt-20 flex-wrap' >
-                <IoLogoAngular className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoChrome className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoCodepen className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoBitcoin className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoFacebook className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoCss3 className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoFreebsdDevil className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoFlickr className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoGameControllerB className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoGithub className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoGameControllerA className="w-24 h-24 shrink-0 mx-3 text-white" />
-                <IoLogoJavascript className="w-24 h-24 shrink-0 mx-3 text-white" />
+                <IoLogoAngular className="w-20 h-20 shrink-0 mx-3 text-white" />
+                <IoLogoChrome className="w-20 h-20 shrink-0 mx-3 text-white" />
+                <IoLogoCodepen className="w-20 h-20 shrink-0 mx-3 text-white" />
+                <IoLogoBitcoin className="w-20 h-20 shrink-0 mx-3 text-white" />
+                <IoLogoFacebook className="w-20 h-20 shrink-0 mx-3 text-white" />
+                <IoLogoCss3 className="w-20 h-20 shrink-0 mx-3 text-white" />
+                <IoLogoFreebsdDevil className="w-20 h-20 shrink-0 mx-3 text-white" />
+                <IoLogoFlickr className="w-20 h-20 shrink-0 mx-3 text-white" />
+                <IoLogoGameControllerB className="w-20 h-20 shrink-0 mx-3 text-white" />
+                <IoLogoGithub className="w-20 h-20 shrink-0 mx-3 text-white" />
+                <IoLogoGameControllerA className="w-20 h-20 shrink-0 mx-3 text-white" />
+                <IoLogoJavascript className="w-20 h-20 shrink-0 mx-3 text-white" />
             </Box>
 
         </Box>
