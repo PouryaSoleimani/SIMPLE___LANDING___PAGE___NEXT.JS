@@ -1,14 +1,14 @@
 import { ImMenu } from "react-icons/im";
 import { DiJqueryUiLogo } from "react-icons/di";
-import React from 'react'
+import React, { useState } from 'react'
 import Link from "next/link";
 import { Button } from "@mui/material";
-import { FaHamburger } from "react-icons/fa";
+
 
 function AppBarComponent() {
+    const [isMenuShow, setIsMenuShow] = useState(false)
     return (
         <>
-
             <nav className='w-full h-auto flex items-center justify-between pr-3 pl-2 py-2 sticky top-2 left-0 bg-white/50 rounded backdrop-blur-2xl border border-slate-200 z-50'>
 
                 <div className="flex items-center justify-start basis-1/2 md:basis-1/5">
@@ -35,12 +35,12 @@ function AppBarComponent() {
 
             </nav>
 
-            <ul id="NAVIGATION____LINKS" className="flex md:hidden flex-col pt-16 items-start text-start fixed left-0 top-0 bg-blue-600 text-white text-2xl  h-screen w-[50vw] z-50">
-                <Button variant="text" color="inherit" sx={{ textAlign: "start" }} ><Link href="/">Home</Link></Button>
-                <Button variant="text" color="inherit" sx={{ textAlign: "start" }}><Link href="/">About</Link></Button>
-                <Button variant="text" color="inherit" sx={{ textAlign: "start" }}><Link href="/">How it works</Link></Button>
-                <Button variant="text" color="inherit" sx={{ textAlign: "start" }}><Link href="/">Clients</Link></Button>
-                <Button variant="text" color="inherit" sx={{ textAlign: "start" }}><Link href="/">Portfolio</Link></Button>
+            <ul id="NAVIGATION____LINKS" className="flex md:hidden flex-col pt-16 items-start text-start fixed left-0 top-0 bg-blue-600 text-white  h-screen w-[60vw] z-50">
+                <Button variant="text" color="inherit" sx={{ textAlign: "start", width: "100%" }}><Link href="/" className="text-xl my-4 w-full px-2">Home</Link></Button>
+                <Button variant="text" color="inherit" sx={{ textAlign: "start", width: "100%" }}><Link href="/" className="text-xl my-4 w-full px-2">About</Link></Button>
+                <Button variant="text" color="inherit" sx={{ textAlign: "start", width: "100%" }}><Link href="/" className="text-xl my-4 w-full px-2">How it works</Link></Button>
+                <Button variant="text" color="inherit" sx={{ textAlign: "start", width: "100%" }}><Link href="/" className="text-xl my-4 w-full px-2">Clients</Link></Button>
+                <Button variant="text" color="inherit" sx={{ textAlign: "start", width: "100%" }}><Link href="/" className="text-xl my-4 w-full px-2">Portfolio</Link></Button>
             </ul>
 
         </>
