@@ -76,3 +76,8 @@ button {
 		transform: translateX(-100%);
 	}
 }
+
+.navbar__header {
+	-webkit-backdrop-filter: blur(64px);
+	backdrop-filter: blur(64px);
+}
