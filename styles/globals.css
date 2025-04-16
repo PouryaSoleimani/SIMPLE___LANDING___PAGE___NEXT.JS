@@ -81,3 +81,7 @@ button {
 	-webkit-backdrop-filter: blur(64px);
 	backdrop-filter: blur(64px);
 }
+
+.MuiBox-root {
+	height: fit-content !important;
+}

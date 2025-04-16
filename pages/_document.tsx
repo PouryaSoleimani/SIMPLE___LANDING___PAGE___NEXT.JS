@@ -8,7 +8,7 @@ export default function Document() {
       <Head>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </Head>
-      <body className="antialiased">
+      <body className="antialiased max-h-fit">
         <Main />
         <NextScript />
       </body>
